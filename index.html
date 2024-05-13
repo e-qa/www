@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Eli</title>
+    <style>
+      @font-face {
+        font-family: "Karma-Suture";
+        src: url("./fonts/Karma-Suture.otf");
+      }
+      body {
+        font-family: "Karma-Suture";
+        background-color: #404041;
+        /* dcc9dd; */
+        color: #f6ede3;
+        /* 413053 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+      }
+
+      #msg {
+        font-size: 48px;
+        letter-spacing: 0.1px;
+      }
+      #music {
+        display: none;
+      }
+      .hide {
+        display: none;
+      }
+
+      @media (max-width: 575px) {
+        body {
+          height: 100%;
+        }
+        #element {
+          font-size: 40px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <span class="start">Press anywhere</span>
+      <span id="msg"></span>
+    </div>
+
+    <audio controls autoplay id="music">
+      <source src="keyboard.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script>
+      document.addEventListener("click", type);
+      let start = document.querySelector(".start");
+      var play = document.getElementById("music");
+
+      function type() {
+        start.classList.add("hide");
+        var typed = new Typed("#msg", {
+          strings: [
+            `Hi there! I'm Eli, a frontend developer passionate about crafting user-friendly interfaces and building beautiful web apps. I love making music with Tone.js. Check out my projects on <a href="https://github.com/rhy6x">GitHub</a>. Connect with me on <a href="https://www.linkedin.com/in/eli-qarayev/">LinkedIn</a> for more!`,
+          ],
+          typeSpeed: 32,
+          showCursor: false,
+        });
+
+        play.play();
+        document.removeEventListener("click", type);
+      }
+    </script>
+  </body>
+</html>
