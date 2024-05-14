@@ -12,10 +12,8 @@
       }
       body {
         font-family: "Karma-Suture";
-        background-color: #404041;
-        /* dcc9dd; */
-        color: #f6ede3;
-        /* 413053 */
+        background-color: #c598fe;
+        color: #030d02;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -35,11 +33,8 @@
       }
 
       @media (max-width: 575px) {
-        body {
-          height: 100%;
-        }
-        #element {
-          font-size: 40px;
+        #msg {
+          font-size: 30px;
         }
       }
     </style>
@@ -57,23 +52,25 @@
     </audio>
 
     <script>
-      document.addEventListener("click", type);
-      let start = document.querySelector(".start");
-      var play = document.getElementById("music");
+      document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("click", type);
+        let start = document.querySelector(".start");
+        var play = document.getElementById("music");
 
-      function type() {
-        start.classList.add("hide");
-        var typed = new Typed("#msg", {
-          strings: [
-            `Hi there! I'm Eli, a frontend developer passionate about crafting user-friendly interfaces and building beautiful web apps. I love making music with Tone.js. Check out my projects on <a href="https://github.com/rhy6x">GitHub</a>. Connect with me on <a href="https://www.linkedin.com/in/eli-qarayev/">LinkedIn</a> for more!`,
-          ],
-          typeSpeed: 32,
-          showCursor: false,
-        });
+        function type() {
+          start.classList.add("hide");
+          var typed = new Typed("#msg", {
+            strings: [
+              `Hi there! I'm Eli, a frontend developer passionate about crafting user-friendly interfaces and building beautiful web apps. I love making music with Tone.js. Check out my projects on <a href="https://github.com/rhy6x">GitHub</a>. Connect with me on <a href="https://www.linkedin.com/in/eli-qarayev/">LinkedIn</a> for more!`,
+            ],
+            typeSpeed: 32,
+            showCursor: false,
+          });
 
-        play.play();
-        document.removeEventListener("click", type);
-      }
+          play.play();
+          document.removeEventListener("click", type);
+        }
+      });
     </script>
   </body>
 </html>
