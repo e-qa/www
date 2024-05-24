@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tone/15.0.4/Tone.js"
+      integrity="sha512-uXz2Ei+QJ4i9e32kXNq+rX/MBgiEEn0wESna9ebpNFStqpfFGEiq1QRfqwXMBZMoU5ZRD3iqQp539jXNFTLlgQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no- referrer"
+    ></script>
     <title>Eli</title>
     <style>
       @font-face {
@@ -47,33 +53,6 @@
       <span class="start">Press anywhere</span>
       <span id="msg"></span>
     </div>
-
-    <audio controls autoplay id="music">
-      <source src="keyboard.mp3" type="audio/mp3" />
-      Your browser does not support the audio element.
-    </audio>
-
-    <script>
-      window.addEventListener("load", (event) => {
-        new cursoreffects.trailingCursor();
-      });
-      document.addEventListener("click", type);
-      let start = document.querySelector(".start");
-      var play = document.getElementById("music");
-
-      function type() {
-        start.classList.add("hide");
-        var typed = new Typed("#msg", {
-          strings: [
-            `Hi there! I'm Eli, a frontend developer passionate about crafting user-friendly interfaces and building beautiful web apps. I love making music with Tone.js. Check out my projects on <a href="https://github.com/rhy6x">GitHub</a>. Connect with me on <a href="https://www.linkedin.com/in/eli-qarayev/">LinkedIn</a> for more!`,
-          ],
-          typeSpeed: 32,
-          showCursor: false,
-        });
-
-        play.play();
-        document.removeEventListener("click", type);
-      }
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>
