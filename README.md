@@ -17,9 +17,3 @@ This personal website is designed to showcase my portfolio and personal informat
 # run local dev server
     npm run dev
 ```
-
-2. Start the development server:
-
-```bash
- npm run dev
-```
