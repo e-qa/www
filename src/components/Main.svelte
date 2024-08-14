@@ -21,9 +21,10 @@
     height: calc(100% - 140px);
     justify-content: center;
     align-items: center;
+    margin-bottom: 60px;
   }
   .right {
-    line-heigt: 1.8rem;
+    line-height: 2rem;
     width: 100%;
     margin-top: 150px;
   }
@@ -32,14 +33,22 @@
     flex-direction: column;
   }
 
-  div > img {
-    width: 450px;
+  .left img {
+    width: 525px;
   }
   p {
     font-size: 1.4rem;
     color: rgb(28, 28, 120);
   }
-  .lang {
-    color: #f7e018;
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  @media (max-width: 425px) {
+    .left img {
+      width: 400px;
+    }
   }
 </style>

@@ -16,3 +16,13 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+.heading {
+  text-align: center;
+  margin: 30px 0 30px 0;
+  font-family: "scriptina", sans-serif;
+  font-size: 4em;
+  font-weight: bold;
+  background: linear-gradient(180deg, #2424b3, #0bcca2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
