@@ -14,4 +14,9 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  @media (max-width: 425px) {
+    a {
+      font-size: 2.5em;
+    }
+  }
 </style>

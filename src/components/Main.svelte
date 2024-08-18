@@ -45,10 +45,21 @@
       flex-direction: column;
       text-align: center;
     }
+    .right {
+      margin: 40px;
+      font-size: 1rem;
+      line-height: normal;
+    }
+    .left img {
+      width: 420px;
+    }
   }
   @media (max-width: 425px) {
     .left img {
-      width: 400px;
+      width: 390px;
+    }
+    .right {
+      margin: 10px;
     }
   }
 </style>

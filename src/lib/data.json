@@ -1,0 +1,28 @@
+{
+  "Projects": [
+    {
+      "id": 0,
+      "name": "youtube interval repeater",
+      "link": "https://github.com/rhy6x/youtube-interval-repeater",
+      "img":"/images/extension.png"
+    },
+    {
+      "id": 1,
+      "name": "sound effects",
+      "link": "https://sound-effects.netlify.app/",
+      "img":"/images/sound-effect.png"
+    },
+    {
+      "id": 2,
+      "name": "drum machine",
+      "link": "https://drummachinex.vercel.app/",
+      "img":"/images/drum-machine.png"
+    },
+    {
+      "id": 3,
+      "name": "audio editor",
+      "link": "https://audio-editor-mini-studio.netlify.app/",
+      "img":"/images/audio-editor.png"
+    }
+  ]
+}
