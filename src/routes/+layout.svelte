@@ -8,7 +8,6 @@
 
   onMount(() => {
     const fontObserver = new FontFaceObserver("scriptina");
-
     fontObserver.load().then(() => {
       isLoading = false;
     });

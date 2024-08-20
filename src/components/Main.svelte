@@ -1,5 +1,5 @@
 <script>
-  let icon = "/images/Saly-10.svg";
+  let icon = "/images/Saly-10.png";
 </script>
 
 <main>
