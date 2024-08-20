@@ -1,4 +1,4 @@
-<h2 class="heading">About</h2>
+<h2 class="heading">About Me</h2>
 <p>
   I am a frontend developer. I craft interactive user interfaces that bring
   websites to life. Using technologies like HTML, CSS, and JavaScript, I enhance
