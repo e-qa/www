@@ -2,10 +2,16 @@
   import "../app.css";
   import Header from "../components/Header.svelte";
   import { onMount } from "svelte";
+  import FontFaceObserver from "fontfaceobserver";
+
   let isLoading = true;
 
   onMount(() => {
-    isLoading = false;
+    const fontObserver = new FontFaceObserver("scriptina");
+
+    fontObserver.load().then(() => {
+      isLoading = false;
+    });
   });
 </script>
 
@@ -30,8 +36,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: white;
   }
+
   .container {
     max-width: 1200px;
     width: 100%;
