@@ -1,62 +1,62 @@
-<script>
-  let javascript = "/icons/javascript.png";
-  let typescirpt = "/icons/typescript.png";
-  let html = "/icons/html.png";
-  let sass = "/icons/sass.png";
-  let css = "/icons/css.png";
-  let bootstrap = "/icons/bootstrap.png";
-  let tailwind = "/icons/tailwind.png";
+<script lang="ts">
+  type Skill = {
+    id: number;
+    src: string;
+    alt: string;
+  };
+
+  let skills: Skill[] = [
+    { id: 1, src: "/icons/html.svg", alt: "html-icon" },
+    { id: 2, src: "/icons/css.svg", alt: "css-icon" },
+    { id: 3, src: "/icons/bootstrap.svg", alt: "bootstrap-icon" },
+    { id: 4, src: "/icons/tailwind.svg", alt: "tailwind-icon" },
+    { id: 5, src: "/icons/javascript.svg", alt: "javascript-icon" },
+    { id: 6, src: "/icons/typescript.svg", alt: "typescript-icon" },
+    { id: 7, src: "/icons/react.svg", alt: "react-icon" },
+    { id: 8, src: "/icons/next.svg", alt: "next-icon" },
+    { id: 9, src: "/icons/node.svg", alt: "node-icon" },
+    { id: 10, src: "/icons/express.svg", alt: "express-icon" },
+    { id: 11, src: "/icons/mongo.svg", alt: "mongo-icon" },
+    { id: 12, src: "/icons/git.svg", alt: "git-icon" },
+  ];
 </script>
 
-<h2 class="heading">Skills</h2>
-<div class="skills">
-  <img src={html} alt="" />
-  <img src={css} alt="" />
-  <img src={sass} alt="" />
-  <img src={bootstrap} alt="" />
-  <img src={tailwind} alt="" />
-  <img src={javascript} alt="" />
-  <img src={typescirpt} alt="" />
-</div>
+<section class="skills">
+  <h2>My Skills</h2>
+  <div class="icons">
+    {#each skills as skill (skill.id)}
+      <img src={skill.src} alt={skill.alt} />
+    {/each}
+  </div>
+</section>
 
 <style>
   .skills {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    flex-direction: column;
+    padding: 50px 0px 50px 0;
+    gap: 20px;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  section h2 {
+    letter-spacing: 0.3rem;
+    text-align: start !important;
+    width: 60%;
+    font-size: 32px;
   }
   img {
-    width: 200px;
-    height: 100px;
-    object-fit: contain;
-    transition: filter 1s ease;
+    width: 46px;
+    transition: 0.3s transform;
   }
-  img:nth-child(2) {
-    width: 207px;
-    height: 118px;
-  }
-  img:nth-child(3) {
-    width: 92px;
-  }
-
-  img:last-child {
-    width: 182px;
-    height: 89px;
-  }
-
   img:hover {
-    filter: invert(40%) sepia(100%) saturate(1000%) hue-rotate(160deg);
-  }
-  @media (max-width: 1024px) {
-    .skills {
-      flex-wrap: wrap;
-    }
-  }
-  @media (max-width: 768px) {
-    .skills {
-      flex-wrap: nowrap;
-      flex-direction: column;
-    }
+    transform: scale(1.5);
   }
 </style>
