@@ -2,27 +2,27 @@
   "Projects": [
     {
       "id": 0,
-      "name": "youtube interval repeater",
-      "link": "https://github.com/rhy6x/youtube-interval-repeater",
-      "img":"/images/extension.png"
+      "name": "Sound Effects",
+      "link": "https://sound-effects.netlify.app/",
+      "source":"https://github.com/rhy6x/sound-effects",
+      "img": "/images/sound-effect.png",
+      "description": "This project allows you to record your voice and apply various effects (reverb, delay, chorus, distortion). You can also download and save the processed audio."
     },
     {
       "id": 1,
-      "name": "sound effects",
-      "link": "https://sound-effects.netlify.app/",
-      "img":"/images/sound-effect.png"
+      "name": "Drum Machine",
+      "link": "https://drummachinex.vercel.app/",
+      "source":"https://github.com/rhy6x/drum-machine",
+      "img": "/images/drum-machine.png",
+      "description": "An interactive drum machine that lets you create rhythms using various drum sounds. Its user-friendly interface allows you to quickly build beats."
     },
     {
       "id": 2,
-      "name": "drum machine",
-      "link": "https://drummachinex.vercel.app/",
-      "img":"/images/drum-machine.png"
-    },
-    {
-      "id": 3,
-      "name": "audio editor",
+      "name": "Audio Editor",
       "link": "https://audio-editor-mini-studio.netlify.app/",
-      "img":"/images/audio-editor.png"
+      "source":"https://github.com/rhy6x/audio-editor",
+      "img": "/images/audio-editor.png",
+      "description": "A mini audio editor that enables you to edit audio files and perform various manipulations. It offers easy-to-use and effective editing tools."
     }
   ]
 }
