@@ -46,4 +46,9 @@
   img {
     width: 200px;
   }
+  @media (max-width: 425px) {
+    footer {
+      flex-direction: column;
+    }
+  }
 </style>

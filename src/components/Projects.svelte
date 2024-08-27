@@ -124,4 +124,24 @@
     background: black;
     color: white;
   }
+  @media (max-width: 768px) {
+    .card {
+      height: 320px;
+    }
+    .card-title p {
+      font-size: 12px;
+    }
+    .link a {
+      padding: 6px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .projects {
+      flex-wrap: wrap;
+    }
+    .card {
+      height: 420px;
+    }
+  }
 </style>

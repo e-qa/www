@@ -31,4 +31,9 @@
     will-change: auto;
     font-size: 18px;
   }
+  @media (max-width: 425px) {
+    p {
+      width: 100%;
+    }
+  }
 </style>
