@@ -252,4 +252,11 @@
     gap: 20px;
     font-size: 24px;
   }
+  @media (max-width: 425px) {
+    .menu {
+      flex-wrap: wrap;
+      flex-direction: column;
+      gap: 0;
+    }
+  }
 </style>
