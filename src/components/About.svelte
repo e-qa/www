@@ -1,12 +1,16 @@
 <section class="about">
   <h2>About Me</h2>
   <p>
-    I am a Frontend Web Developer with a passion for creating intuitive and
-    dynamic user interfaces using HTML, CSS, JavaScript and TypeScript,
-    especially with React. Currently, I’m expanding my skill set into backend
-    development, learning server-side technologies and database management to
-    become a Full Stack Developer. Excited to bridge the gap between frontend
-    and backend to build comprehensive web solutions.
+    Hello! I'm a passionate Frontend Developer with a keen eye for clean,
+    functional design and a love for creating engaging web applications. I
+    specialize in crafting interactive and user-friendly experiences using
+    modern technologies like React and Next. My approach combines a deep
+    understanding of JavaScript and a focus on intuitive user interfaces to
+    bring ideas to life. When I'm not coding, you'll find me exploring new
+    design trends, experimenting with sound effects in Tone.js, or working on
+    personal projects to push my skills further. My goal is to build web
+    applications that are not only visually appealing but also highly functional
+    and enjoyable to use.
   </p>
 </section>
 

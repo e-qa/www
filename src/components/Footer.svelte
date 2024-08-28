@@ -10,7 +10,7 @@
   </ul>
   <div class="contact">
     <span>050 412 40 32</span>
-    <a href="mailto:example@example.com">example@example.com</a>
+    <a href="mailto:example@example.com">eliqarayevv@gmail.com</a>
   </div>
   <div class="logo">
     <a href="#">

@@ -20,7 +20,7 @@
           </ul>
         </div>
         <div class="menu-contacts">
-          <span>testl@test.com</span>
+          <span>eliqarayevv@gmail.com</span>
           <span>050 412 40 32</span>
         </div>
       </div>
