@@ -23,6 +23,13 @@
       "source":"https://github.com/e-qa/audio-editor",
       "img": "/images/audio-editor.png",
       "description": "A mini audio editor that enables you to edit audio files and perform various manipulations. It offers easy-to-use and effective editing tools."
+    },
+    {
+      "id": 3,
+      "name": "Youtube Interval Repeater",
+      "source":"https://github.com/e-qa/youtube-interval-repeater",
+      "img": "/images/extension.png",
+      "description": "This Google Chrome extension is designed to repeat a specific interval of songs playing on YouTube. It allows users to select a portion of a song and loop it."
     }
   ]
 }

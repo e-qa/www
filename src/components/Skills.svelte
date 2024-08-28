@@ -36,7 +36,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 50px 0px 50px 0;
     gap: 20px;
   }
   .icons {

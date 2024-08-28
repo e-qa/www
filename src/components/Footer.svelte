@@ -1,21 +1,24 @@
 <script>
+  import { goto } from "$app/navigation";
   let logo = "/icons/logo.png";
 </script>
 
 <footer>
   <ul>
-    <li><a href="#">PROJECTS</a></li>
-    <li><a href="#">ABOUT</a></li>
-    <li><a href="#">CONTACT</a></li>
+    <li class="link"><button>PROJECTS</button></li>
+    <li class="link"><button>ABOUT</button></li>
+    <li class="link">
+      <button on:click={() => goto("/contact")}>CONTACT</button>
+    </li>
   </ul>
   <div class="contact">
     <span>050 412 40 32</span>
     <a href="mailto:example@example.com">eliqarayevv@gmail.com</a>
   </div>
   <div class="logo">
-    <a href="#">
+    <button on:click={() => goto("/")}>
       <img src={logo} alt="logo" />
-    </a>
+    </button>
   </div>
 </footer>
 
@@ -35,10 +38,21 @@
     display: flex;
     flex-direction: column;
   }
-  .contact a,
-  ul a {
-    font-size: 25px;
+  .contact a {
     color: white;
+    font-size: 25px;
+  }
+  button {
+    border: none;
+    background: black;
+    cursor: pointer;
+  }
+  .link button {
+    font-family: "League Gothic", sans-serif;
+    font-size: 25px;
+    border: none;
+    color: white;
+    background-color: transparent;
   }
   .contact span {
     font-size: 25px;

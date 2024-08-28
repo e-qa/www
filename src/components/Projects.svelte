@@ -1,8 +1,11 @@
 <script lang="ts">
+  import { goto } from "$app/navigation";
+  import { page } from "$app/stores";
+
   let arrow = "/icons/arrow.svg";
   let github = "/icons/github.svg";
   let world = "/icons/world.svg";
-  import data from "$lib/data.json";
+  export let data;
 
   type Data = {
     id: number;
@@ -12,7 +15,9 @@
     img: string;
     description: string;
   };
-  const projects: Data[] = data.Projects;
+  const projects: Data[] = data;
+
+  let currentPath = $page.url.pathname;
 </script>
 
 <section>
@@ -30,7 +35,8 @@
               <img src={github} alt="github icon" />
               source
             </a>
-            <a href={project.link}>
+
+            <a href={project.link} class={project.link ? "" : "disabled"}>
               <img src={world} alt="github icon" />
               website
             </a>
@@ -40,10 +46,16 @@
     {/each}
   </div>
   <div class="buttons">
-    <button>
-      <img src={arrow} alt="right arrow" />
-      All Projects
-    </button>
+    {#if currentPath !== "/projects"}
+      <button
+        on:click={() => {
+          goto("/projects");
+        }}
+      >
+        <img src={arrow} alt="right arrow" />
+        All Projects
+      </button>
+    {/if}
     <button>
       <img src={arrow} alt="right arrow" />
       Contact me
@@ -57,22 +69,24 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
+    margin-top: 50px;
   }
   .projects {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    place-content: center;
     gap: 10px;
     font-family: "Roboto", sans-serif;
   }
   .card {
     border: 1px solid black;
     width: 400px;
-    height: 400px;
+    height: 420px;
   }
 
   .card-img img {
     width: 100%;
+    height: 220px;
   }
   .card-title {
     border-top: 1px solid black;
@@ -124,6 +138,10 @@
     background: black;
     color: white;
   }
+  .disabled {
+    display: none !important;
+  }
+
   @media (max-width: 768px) {
     .card {
       height: 320px;
@@ -138,7 +156,7 @@
 
   @media (max-width: 425px) {
     .projects {
-      flex-wrap: wrap;
+      grid-template-columns: 1fr;
     }
     .card {
       height: 420px;
