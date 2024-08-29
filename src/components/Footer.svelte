@@ -5,8 +5,10 @@
 
 <footer>
   <ul>
-    <li class="link"><button>PROJECTS</button></li>
-    <li class="link"><button>ABOUT</button></li>
+    <li class="link">
+      <button on:click={() => goto("/projects")}>PROJECTS</button>
+    </li>
+    <li class="link"><button on:click={() => goto("/")}>ABOUT</button></li>
     <li class="link">
       <button on:click={() => goto("/contact")}>CONTACT</button>
     </li>

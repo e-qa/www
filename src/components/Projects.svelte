@@ -56,7 +56,7 @@
         All Projects
       </button>
     {/if}
-    <button>
+    <button on:click={() => goto("/contact")}>
       <img src={arrow} alt="right arrow" />
       Contact me
     </button>

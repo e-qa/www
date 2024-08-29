@@ -1,9 +1,15 @@
 <script lang="ts">
+  import { goto } from "$app/navigation";
+
   let logo = "/icons/logo.png";
   let isMenuOpen = false;
   function handleInput(event: Event) {
     const target = event.target as HTMLInputElement;
     isMenuOpen = target.checked;
+  }
+  function navigateToPage(path: string) {
+    goto(path);
+    isMenuOpen = false;
   }
 </script>
 
@@ -13,10 +19,26 @@
       <div class="menu">
         <div class="menu-link">
           <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li>
+              <button class="link" on:click={() => navigateToPage("/")}
+                >HOME</button
+              >
+            </li>
+            <li>
+              <button class="link" on:click={() => navigateToPage("/projects")}
+                >PROJECTS</button
+              >
+            </li>
+            <li>
+              <button class="link" on:click={() => navigateToPage("/")}
+                >ABOUT</button
+              >
+            </li>
+            <li>
+              <button class="link" on:click={() => navigateToPage("/contact")}
+                >CONTACT</button
+              >
+            </li>
           </ul>
         </div>
         <div class="menu-contacts">
@@ -237,11 +259,11 @@
     list-style: none;
     transition: 0.3s ease transform;
   }
-  .menu li a {
-    color: black;
-    font-size: 64px;
-    text-decoration: none;
-    position: relative;
+  .link {
+    border: none;
+    background-color: transparent;
+    font-family: "League Gothic", sans-serif;
+    font-size: 70px;
   }
   .menu li:hover {
     transform: scaleX(50%);
