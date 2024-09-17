@@ -1,5 +1,13 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Link to="/about" className="btn btn-primary">
+        Go About
+      </Link>
+    </div>
+  );
 };
 
 export default Home;
