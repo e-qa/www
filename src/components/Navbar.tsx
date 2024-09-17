@@ -7,11 +7,11 @@ const Navbar = () => {
         eli.
       </Link>
       <div className="flex gap-5">
-        <Link to={"/contact"} className="text-2xl">
-          contact
-        </Link>
         <Link to={"/about"} className="text-2xl">
           about
+        </Link>
+        <Link to={"/contact"} className="text-2xl">
+          contact
         </Link>
       </div>
     </nav>
