@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <Link to="/about" className="btn btn-primary">
-        Go About
-      </Link>
+      <Link to="/about">Go About</Link>
     </div>
   );
 };
