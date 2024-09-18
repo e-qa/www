@@ -26,9 +26,11 @@ const Projects = () => {
                   <button className="btn">
                     <a href={project.link}>website</a>
                   </button>
-                  <button className="btn">
-                    <a href={project.source}>source</a>
-                  </button>
+                  {project.link && (
+                    <button className="btn">
+                      <a href={project.source}>source</a>
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
