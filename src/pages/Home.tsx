@@ -50,7 +50,7 @@ const Home = () => {
               key={item.id}
               src={item.src}
               alt={item.alt}
-              className="w-20 hover:scale-150 transition-transform duration-300"
+              className="w-20 hover:scale-150 transition  -transform duration-300"
             />
           );
         })}
