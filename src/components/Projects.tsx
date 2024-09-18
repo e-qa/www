@@ -9,10 +9,13 @@ const Projects = () => {
           📁
         </span>
       </h3>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 place-items-center lg:grid-cols-2 md:grid-cols-2 gap-10">
         {data.Projects.map((project) => {
           return (
-            <div className="card bg-base-100 w-96 shadow-xl" key={project.id}>
+            <div
+              className="card bg-base-100 lg:w-96 w-[100%] shadow-xl"
+              key={project.id}
+            >
               <figure className="px-10 pt-10">
                 <img src={project.img} alt="Shoes" className="rounded-xl" />
               </figure>

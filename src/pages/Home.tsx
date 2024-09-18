@@ -50,7 +50,7 @@ const Home = () => {
             🛠️
           </span>
         </h3>
-        <div className="flex items-center justify-between gap-5 ">
+        <div className="flex items-center justify-center  lg:justify-between flex-wrap lg:flex-nowrap gap-5 ">
           {skills.map((item) => {
             return (
               <img
