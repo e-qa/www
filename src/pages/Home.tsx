@@ -44,7 +44,12 @@ const Home = () => {
           </Link>
         </div>
 
-        <h3 className="mt-10 mb-5 text-xl">Tools & Technologies</h3>
+        <h3 className="mt-20 mb-5 text-xl">
+          Tools & Technologies{" "}
+          <span role="img" aria-label="tools">
+            🛠️
+          </span>
+        </h3>
         <div className="flex items-center justify-between gap-5 ">
           {skills.map((item) => {
             return (
