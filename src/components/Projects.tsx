@@ -23,14 +23,14 @@ const Projects = () => {
                 <h2 className="card-title text-xl">{project.name}</h2>
                 <p>{project.description}</p>
                 <div className="card-actions mt-2">
-                  <button className="btn">
-                    <a href={project.link}>website</a>
-                  </button>
                   {project.link && (
                     <button className="btn">
-                      <a href={project.source}>source</a>
+                      <a href={project.link}>website</a>
                     </button>
                   )}
+                  <button className="btn">
+                    <a href={project.source}>source</a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -42,3 +42,4 @@ const Projects = () => {
 };
 
 export default Projects;
+console.log();
