@@ -1,0 +1,35 @@
+{
+  "Projects": [
+    {
+      "id": 0,
+      "name": "Sound Effects",
+      "link": "https://sound-effects.netlify.app/",
+      "source":"https://github.com/e-qa/sound-effects",
+      "img": "/images/sound-effect.png",
+      "description": "This project allows you to record your voice and apply various effects (reverb, delay, chorus, distortion). You can also download and save the processed audio."
+    },
+    {
+      "id": 1,
+      "name": "Drum Machine",
+      "link": "https://drummachinex.vercel.app/",
+      "source":"https://github.com/e-qa/drum-machine",
+      "img": "/images/drum-machine.png",
+      "description": "An interactive drum machine that lets you create rhythms using various drum sounds. Its user-friendly interface allows you to quickly build beats."
+    },
+    {
+      "id": 2,
+      "name": "Audio Editor",
+      "link": "https://audio-editor-mini-studio.netlify.app/",
+      "source":"https://github.com/e-qa/audio-editor",
+      "img": "/images/audio-editor.png",
+      "description": "A mini audio editor that enables you to edit audio files and perform various manipulations. It offers easy-to-use and effective editing tools."
+    },
+    {
+      "id": 3,
+      "name": "Youtube Interval Repeater",
+      "source":"https://github.com/e-qa/youtube-interval-repeater",
+      "img": "/images/extension.png",
+      "description": "This Google Chrome extension is designed to repeat a specific interval of songs playing on YouTube. It allows users to select a portion of a song and loop it."
+    }
+  ]
+}

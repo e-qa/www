@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import profile from "/images/profile.jpeg";
 
 const Navbar = () => {
   const [theme, setTheme] = useState<string>(
@@ -18,7 +19,11 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between my-4">
       <Link to={"/"} className="text-4xl">
-        eli.
+        <div className="avatar">
+          <div className="ring-primary ring-offset-base-100 w-8 rounded-full ring ring-offset-2">
+            <img src={profile} alt="profile" />
+          </div>
+        </div>
       </Link>
       <div className="flex gap-5">
         <Link to={"/about"} className="text-2xl">
