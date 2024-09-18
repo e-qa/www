@@ -27,13 +27,13 @@ const Navbar = () => {
         <Link to={"/contact"} className="text-2xl">
           contact
         </Link>
-
         <label className="swap swap-rotate w-10">
           <input
             type="checkbox"
             onChange={() => {
               handleTheme();
             }}
+            checked={theme === "black"}
           />
 
           <svg
