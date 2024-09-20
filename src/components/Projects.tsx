@@ -13,15 +13,17 @@ const Projects = () => {
         {data.Projects.map((project) => {
           return (
             <div
-              className="card bg-base-100 lg:w-96 w-[100%] shadow-xl"
+              className="card bg-base-100  lg:w-96 w-[90%] shadow-xl"
               key={project.id}
             >
               <figure className="px-10 pt-10">
                 <img src={project.img} alt="Shoes" className="rounded-xl" />
               </figure>
               <div className="card-body items-center text-start">
-                <h2 className="card-title text-xl">{project.name}</h2>
-                <p>{project.description}</p>
+                <h2 className="card-title text-base lg:text-xl">
+                  {project.name}
+                </h2>
+                <p className="text-sm lg:text-base">{project.description}</p>
                 <div className="card-actions mt-2">
                   {project.link && (
                     <button className="btn">

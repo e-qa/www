@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen mt-20">
       <h1 className="text-bold text-3xl lg:text-4xl my-3">Contact</h1>
-      <p className="text-xl lg:text-2xl">
+      <p className="text-base lg:text-2xl">
         If you'd like to get in touch, you can reach me using the following
         methods.
       </p>

@@ -25,11 +25,11 @@ const Navbar = () => {
           </div>
         </div>
       </Link>
-      <div className="flex gap-5">
-        <Link to={"/about"} className="text-2xl">
+      <div className="flex gap-3 lg:gap-5">
+        <Link to={"/about"} className="text-xl lg:text-2xl">
           about
         </Link>
-        <Link to={"/contact"} className="text-2xl">
+        <Link to={"/contact"} className="text-xl lg:text-2xl">
           contact
         </Link>
         <label className="swap swap-rotate w-10">
@@ -42,7 +42,7 @@ const Navbar = () => {
           />
 
           <svg
-            className="swap-on h-7 w-7 fill-current"
+            className="swap-on h-5 w-5 lg:h-7 lg:w-7  fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -50,7 +50,7 @@ const Navbar = () => {
           </svg>
 
           <svg
-            className="swap-off h-7 w-7 fill-current"
+            className="swap-off h-5 w-5 lg:h-7 lg:w-7 fill-current"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >

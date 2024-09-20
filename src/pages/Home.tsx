@@ -26,8 +26,8 @@ const Home = () => {
   return (
     <>
       <div className="flex  flex-col my-14">
-        <h1 className="text-4xl font-medium">Hey👋🏼, I’m Eli.</h1>
-        <p className="my-6 text-xl ">
+        <h1 className="text-2xl lg:text-4xl font-medium">Hey👋🏼, I’m Eli.</h1>
+        <p className="my-4 lg:my-6 text-base lg:text-xl">
           I’m a JavaScript Developer with a passion for creating engaging and
           user-friendly web experiences. With hands-on experience in developing
           dynamic web applications and a strong foundation in front-end
@@ -50,14 +50,14 @@ const Home = () => {
             🛠️
           </span>
         </h3>
-        <div className="flex items-center justify-center  lg:justify-between flex-wrap lg:flex-nowrap gap-5 ">
+        <div className="flex items-center justify-center  lg:justify-between flex-wrap lg:flex-nowrap gap-4 lg:gap-5 ">
           {skills.map((item) => {
             return (
               <img
                 key={item.id}
                 src={item.src}
                 alt={item.alt}
-                className="w-20 hover:scale-150 transition  -transform duration-300"
+                className="w-10 lg:w-20 hover:scale-150 transition -transform duration-300"
               />
             );
           })}
