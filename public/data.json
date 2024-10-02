@@ -31,5 +31,13 @@
       "img": "/images/extension.png",
       "description": "This Google Chrome extension is designed to repeat a specific interval of songs playing on YouTube. It allows users to select a portion of a song and loop it."
     }
+    ,
+    {
+      "id": 4,
+      "name": "Motivasiya",
+      "source":"https://github.com/e-qa/Motivasiya",
+      "img": "/images/electron-app.png",
+      "description":"Motivation is an Electron application that helps users receive daily motivational quotes."
+    }
   ]
 }
