@@ -1,12 +1,13 @@
+import { useTranslation } from 'react-i18next';
+
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen mt-20">
-      <h1 className="text-bold text-3xl lg:text-4xl my-3">Contact</h1>
-      <p className="text-base lg:text-2xl">
-        If you'd like to get in touch, you can reach me using the following
-        methods.
-      </p>
-
+      <h1 className="text-bold text-3xl lg:text-4xl my-3 capitalize">
+        {t('contact')}
+      </h1>
+      <p className="text-base lg:text-2xl">{t('contact_text')}</p>
       <div className="flex  items-center justify-center mt-10 gap-10 lg:gap-20">
         <div className="flex  divider divider-horizontal divider-start">
           <h2 className="text-bold text-2xl">Email</h2>

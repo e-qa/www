@@ -2,42 +2,71 @@
   "Projects": [
     {
       "id": 0,
-      "name": "Sound Effects",
+      "name": {
+        "en": "Sound Effects",
+        "az": "Ses Efektləri"
+      },
       "link": "https://sound-effects.netlify.app/",
-      "source":"https://github.com/e-qa/sound-effects",
+      "source": "https://github.com/e-qa/sound-effects",
       "img": "/images/sound-effect.png",
-      "description": "This project allows you to record your voice and apply various effects (reverb, delay, chorus, distortion). You can also download and save the processed audio."
+      "description": {
+        "en": "This project allows you to record your voice and apply various effects (reverb, delay, chorus, distortion). You can also download and save the processed audio.",
+        "az": "Bu layihə səsinizi qeyd etməyə və müxtəlif effektlər (reverb, delay, chorus, distortion) tətbiq etməyə imkan verir. Eyni zamanda, emal edilmiş audioyu yükləyə və saxlaya bilərsiniz."
+      }
     },
     {
       "id": 1,
-      "name": "Drum Machine",
+      "name": {
+        "en": "Drum Machine",
+        "az": "Darbuka Maşını"
+      },
       "link": "https://drummachinex.vercel.app/",
-      "source":"https://github.com/e-qa/drum-machine",
+      "source": "https://github.com/e-qa/drum-machine",
       "img": "/images/drum-machine.png",
-      "description": "An interactive drum machine that lets you create rhythms using various drum sounds. Its user-friendly interface allows you to quickly build beats."
+      "description": {
+        "en": "An interactive drum machine that lets you create rhythms using various drum sounds. Its user-friendly interface allows you to quickly build beats.",
+        "az": "Müxtəlif darab səsindən istifadə edərək ritmlər yaratmağa imkan verən interaktiv bir darab maşını. İstifadəçi dostu interfeysi sayəsində tez bir zamanda ritmlər qura bilərsiniz."
+      }
     },
     {
       "id": 2,
-      "name": "Audio Editor",
+      "name": {
+        "en": "Audio Editor",
+        "az": "Audio Redaktoru"
+      },
       "link": "https://audio-editor-mini-studio.netlify.app/",
-      "source":"https://github.com/e-qa/audio-editor",
+      "source": "https://github.com/e-qa/audio-editor",
       "img": "/images/audio-editor.png",
-      "description": "A mini audio editor that enables you to edit audio files and perform various manipulations. It offers easy-to-use and effective editing tools."
+      "description": {
+        "en": "A mini audio editor that enables you to edit audio files and perform various manipulations. It offers easy-to-use and effective editing tools.",
+        "az": "Audio fayllarını redaktə etməyə və müxtəlif manipulyasiyalar aparmağa imkan verən mini audio redaktoru. İstifadəsi asan və effektiv redaktə alətləri təqdim edir."
+      }
     },
     {
       "id": 3,
-      "name": "Youtube Interval Repeater",
-      "source":"https://github.com/e-qa/youtube-interval-repeater",
+      "name": {
+        "en": "Youtube Interval Repeater",
+        "az": "Youtube Aralıq Təkrarlayıcı"
+      },
+      "source": "https://github.com/e-qa/youtube-interval-repeater",
       "img": "/images/extension.png",
-      "description": "This Google Chrome extension is designed to repeat a specific interval of songs playing on YouTube. It allows users to select a portion of a song and loop it."
-    }
-    ,
+      "description": {
+        "en": "This Google Chrome extension is designed to repeat a specific interval of songs playing on YouTube. It allows users to select a portion of a song and loop it.",
+        "az": "Bu Google Chrome uzantısı, YouTube-da çalan mahnıların müəyyən bir aralığını təkrarlamaq üçün nəzərdə tutulub. İstifadəçilərə mahnının bir hissəsini seçmək və onu dövr etdirmək imkanı verir."
+      }
+    },
     {
       "id": 4,
-      "name": "Motivasiya",
-      "source":"https://github.com/e-qa/Motivasiya",
+      "name": {
+        "en": "Motivation",
+        "az": "Motivasiya"
+      },
+      "source": "https://github.com/e-qa/Motivasiya",
       "img": "/images/electron-app.png",
-      "description":"Motivation is an Electron application that helps users receive daily motivational quotes."
+      "description": {
+        "en": "Motivation is an Electron application that helps users receive daily motivational quotes.",
+        "az": "Motivasiya, istifadəçilərə gündəlik motivasiyaedici sitatlar almağa kömək edən bir Elektron tətbiqidir."
+      }
     }
   ]
 }
