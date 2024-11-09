@@ -3,29 +3,28 @@
     {
       "id": 0,
       "name": {
-        "en": "Sound Effects",
-        "az": "Ses Efektləri"
+        "en": "Motivation",
+        "az": "Motivasiya"
       },
-      "link": "https://sound-effects.netlify.app/",
-      "source": "https://github.com/e-qa/sound-effects",
-      "img": "/images/sound-effect.png",
+      "source": "https://github.com/e-qa/Motivasiya",
+      "img": "/images/electron-app.png",
       "description": {
-        "en": "This project allows you to record your voice and apply various effects (reverb, delay, chorus, distortion). You can also download and save the processed audio.",
-        "az": "Bu layihə səsinizi qeyd etməyə və müxtəlif effektlər (reverb, delay, chorus, distortion) tətbiq etməyə imkan verir. Eyni zamanda, emal edilmiş audioyu yükləyə və saxlaya bilərsiniz."
+        "en": "Motivation is an Electron application that helps users receive daily motivational quotes.",
+        "az": "Motivasiya, istifadəçilərə gündəlik motivasiyaedici sitatlar almağa kömək edən bir Elektron tətbiqidir."
       }
     },
     {
       "id": 1,
       "name": {
-        "en": "Drum Machine",
-        "az": "Darbuka Maşını"
+        "en": "Learn JavaScript",
+        "az": "JavaScript öyrən"
       },
-      "link": "https://drummachinex.vercel.app/",
-      "source": "https://github.com/e-qa/drum-machine",
-      "img": "/images/drum-machine.png",
+      "link": "https://javascript-oyren.vercel.app/",
+      "source": "https://github.com/e-qa/JavaScriptOyren",
+      "img": "/images/javascript-notes.png",
       "description": {
-        "en": "An interactive drum machine that lets you create rhythms using various drum sounds. Its user-friendly interface allows you to quickly build beats.",
-        "az": "Müxtəlif darab səsindən istifadə edərək ritmlər yaratmağa imkan verən interaktiv bir darab maşını. İstifadəçi dostu interfeysi sayəsində tez bir zamanda ritmlər qura bilərsiniz."
+        "en": "I created this website to bring together my personal notes on JavaScript. Here, I’ve shared key topics I learned throughout my learning journey. This site serves as both a deepened memory for myself and a helpful resource for those interested in JavaScript.",
+        "az": "JavaScript haqqında şəxsi qeydlərimi bir araya gətirərək bu veb sayt halına gətirdim. Öyrənmə prosesində öyrəndiyim əsas mövzuları burada paylaşmışam. Bu sayt, həm özüm üçün həm də JavaScript-lə maraqlananlar üçün faydalı bir mənbədir"
       }
     },
     {
@@ -42,6 +41,7 @@
         "az": "Audio fayllarını redaktə etməyə və müxtəlif manipulyasiyalar aparmağa imkan verən mini audio redaktoru. İstifadəsi asan və effektiv redaktə alətləri təqdim edir."
       }
     },
+
     {
       "id": 3,
       "name": {
@@ -58,14 +58,29 @@
     {
       "id": 4,
       "name": {
-        "en": "Motivation",
-        "az": "Motivasiya"
+        "en": "Sound Effects",
+        "az": "Ses Efektləri"
       },
-      "source": "https://github.com/e-qa/Motivasiya",
-      "img": "/images/electron-app.png",
+      "link": "https://sound-effects.netlify.app/",
+      "source": "https://github.com/e-qa/sound-effects",
+      "img": "/images/sound-effect.png",
       "description": {
-        "en": "Motivation is an Electron application that helps users receive daily motivational quotes.",
-        "az": "Motivasiya, istifadəçilərə gündəlik motivasiyaedici sitatlar almağa kömək edən bir Elektron tətbiqidir."
+        "en": "This project allows you to record your voice and apply various effects (reverb, delay, chorus, distortion). You can also download and save the processed audio.",
+        "az": "Bu layihə səsinizi qeyd etməyə və müxtəlif effektlər (reverb, delay, chorus, distortion) tətbiq etməyə imkan verir. Eyni zamanda, emal edilmiş audioyu yükləyə və saxlaya bilərsiniz."
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "en": "Drum Machine",
+        "az": "Darbuka Maşını"
+      },
+      "link": "https://drummachinex.vercel.app/",
+      "source": "https://github.com/e-qa/drum-machine",
+      "img": "/images/drum-machine.png",
+      "description": {
+        "en": "An interactive drum machine that lets you create rhythms using various drum sounds. Its user-friendly interface allows you to quickly build beats.",
+        "az": "Müxtəlif darab səsindən istifadə edərək ritmlər yaratmağa imkan verən interaktiv bir darab maşını. İstifadəçi dostu interfeysi sayəsində tez bir zamanda ritmlər qura bilərsiniz."
       }
     }
   ]
