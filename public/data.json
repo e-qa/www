@@ -66,7 +66,7 @@
       "img": "/images/sound-effect.png",
       "description": {
         "en": "This project allows you to record your voice and apply various effects (reverb, delay, chorus, distortion). You can also download and save the processed audio.",
-        "az": "Bu layihə səsinizi qeyd etməyə və müxtəlif effektlər (reverb, delay, chorus, distortion) tətbiq etməyə imkan verir. Eyni zamanda, emal edilmiş audioyu yükləyə və saxlaya bilərsiniz."
+        "az": "Bu layihə səsinizi qeyd etməyə və müxtəlif effektlər (reverb, delay, chorus, distortion) tətbiq etməyə imkan verir. Eyni zamanda, emal edilmiş audioyu yükləyə bilərsiniz."
       }
     },
     {
@@ -80,7 +80,7 @@
       "img": "/images/drum-machine.png",
       "description": {
         "en": "An interactive drum machine that lets you create rhythms using various drum sounds. Its user-friendly interface allows you to quickly build beats.",
-        "az": "Müxtəlif darab səsindən istifadə edərək ritmlər yaratmağa imkan verən interaktiv bir darab maşını. İstifadəçi dostu interfeysi sayəsində tez bir zamanda ritmlər qura bilərsiniz."
+        "az": "Ritmlər yaratmağa imkan verən interaktiv bir darab maşını. İstifadəçi dostu interfeysi sayəsində tez bir zamanda ritmlər qura bilərsiniz."
       }
     }
   ]
