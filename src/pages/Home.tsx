@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const container = {
@@ -30,14 +31,16 @@ const Home = () => {
         I'm Eli, a full-stack developer, designing intuitive user <br />
         experiences and robust solutions for businesses and individuals.
       </motion.p>
-      <motion.button
-        className="border rounded-xl p-2 text-center cursor-pointer z-10 w-24"
-        variants={item}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-      >
-        About me
-      </motion.button>
+      <Link to={'/about'}>
+        <motion.button
+          className="border block rounded-xl p-2 text-center cursor-pointer z-10 w-24"
+          variants={item}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+        >
+          About me
+        </motion.button>
+      </Link>
     </motion.main>
   );
 };
