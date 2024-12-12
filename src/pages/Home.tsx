@@ -31,7 +31,7 @@ const Home = () => {
         I'm Eli, a full-stack developer, designing intuitive user <br />
         experiences and robust solutions for businesses and individuals.
       </motion.p>
-      <Link to={'/about'}>
+      <Link to={'/about'} className="w-3">
         <motion.button
           className="border block rounded-xl p-2 text-center cursor-pointer z-10 w-24"
           variants={item}
