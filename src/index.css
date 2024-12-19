@@ -11,6 +11,14 @@
   @apply border-slate-500;
   @apply p-1;
 }
+
+.link {
+  @apply border;
+  @apply rounded-xl;
+  @apply border-slate-300;
+  @apply p-1;
+}
+
 body {
   @apply bg-black;
 }

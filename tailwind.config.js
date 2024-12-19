@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         roboto: ['Roboto', ' sans-serif'],
       },
+      flexBasis: {
+        '3/10': '30%',
+        '7/10': '70%',
+      },
     },
   },
   plugins: [],

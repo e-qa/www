@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <motion.main
-      className="pt-20 lg:px-20 px-0 h-full flex flex-col gap-10"
+      className="pt-32 lg:px-20 px-0 h-full flex flex-col gap-10"
       variants={container}
       initial="hidden"
       animate="visible"
