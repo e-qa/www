@@ -19,17 +19,20 @@ const Home = () => {
 
   return (
     <motion.main
-      className="pt-32 lg:px-20 px-0 h-full flex flex-col gap-10"
+      className="pt-32 lg:px-20 px-0 h-full flex flex-col  gap-2 lg:gap-5
+      "
       variants={container}
       initial="hidden"
       animate="visible"
     >
       <motion.h1 className="text-7xl font-bold" variants={item}>
-        FullStack JavaScript <br /> Developer
+        Frontend Developer
       </motion.h1>
       <motion.p className="text-xl" variants={item}>
-        I'm Eli, a full-stack developer, designing intuitive user <br />
-        experiences and robust solutions for businesses and individuals.
+        I’m a frontend developer passionate about solving complex challenges and
+        creating intuitive, user-friendly web applications. I focus on
+        delivering seamless digital experiences, blending design with technology
+        to bring ideas to life.
       </motion.p>
       <Link to={'/about'} className="w-3">
         <motion.button

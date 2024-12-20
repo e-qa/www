@@ -12,7 +12,7 @@ const About = () => {
             <img
               src="./me.jpg"
               alt="Profile Picture"
-              className="w-48 h-48 rounded-full object-cover border-[1px] border-[#595959]"
+              className="w-48 h-48 rounded-full object-cover border-[.0625rem] border-[#595959]"
             />
           </div>
           <div className="flex items-center gap-2 mt-5">
@@ -51,11 +51,68 @@ const About = () => {
               I’m a frontend developer passionate about solving complex
               challenges and creating intuitive, user-friendly web applications.
               I focus on delivering seamless digital experiences, blending
-              design with technology to bring ideas to life.
+              design with technology to bring ideas to life
             </p>
           </div>
-          <div className="mt-10">
-            <h2 className="text-4xl font-bold">Technical skills</h2>
+          <div className="mt-10 my-20">
+            <h2 className="text-4xl font-bold my-2">Technical skills</h2>
+            <div className="flex flex-col gap-3">
+              <div className="flex flex-col gap-1">
+                <span className="text-xl font-bold">JavaScript</span>
+                <span className="text-sm">
+                  JavaScript brings interactivity and dynamic functionality to
+                  websites and applications.
+                </span>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <span className="text-xl font-bold">TypeScript</span>
+                <span className="text-sm">
+                  TypeScript enhances JavaScript with static typing for better
+                  code reliability and maintainability.
+                </span>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <span className="text-xl font-bold">React</span>
+                <span className="text-sm">
+                  React makes it easy to create dynamic user interfaces with
+                  reusable components.
+                </span>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <span className="text-xl font-bold">Next.js</span>
+                <span className="text-sm">
+                  Next.js combines the power of React with server-side rendering
+                  (SSR) for optimized performance.
+                </span>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <span className="text-xl font-bold">Sass</span>
+                <span className="text-sm">
+                  Sass is a CSS preprocessor that simplifies and organizes
+                  stylesheets with advanced features.
+                </span>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <span className="text-xl font-bold">Tailwind CSS</span>
+                <span className="text-sm">
+                  Tailwind CSS allows for fast and flexible modern UI design
+                  with utility-first classes.
+                </span>
+              </div>
+
+              <div className="flex flex-col gap-1">
+                <span className="text-xl font-bold">ShadCN UI</span>
+                <span className="text-sm">
+                  ShadCN UI is a collection of accessible and customizable
+                  components built for modern React applications.
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
